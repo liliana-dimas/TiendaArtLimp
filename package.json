@@ -1,0 +1,16 @@
+{
+  "name": "CRUD_1022_ING",
+  "version": "1.0.0",
+  "description": "Aplicacion web para la gestion de inventario de una tienda de articulos de limpieza",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
+  "dependencies": {
+ 
+  },
+  "devDependencies": {
+    "jest": "^29.2.0" 
+  }
+}
