@@ -3,7 +3,7 @@ name: CI
 on:
   push:
     branches:
-      - master # Cambia 'main' por el nombre de tu rama principal si es diferente
+      - main # Cambia 'main' por el nombre de tu rama principal si es diferente
   pull_request:
     branches:
       - main
@@ -26,3 +26,11 @@ jobs:
 
     - name: Run tests
       run: npm test  # Ejecuta tus pruebas con Jest
+
+    - name: Notify Slack
+      uses: 8398a7/action-slack@v3
+      env:
+        SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+      with:
+        status: ${{ job.status }}
+
