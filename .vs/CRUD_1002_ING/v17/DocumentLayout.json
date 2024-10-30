@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Liliana Lopez Dimas\\source\\repos\\CRUD_1002_ING\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{97B62A86-735C-407D-9344-228880EC32E4}|CRUD_1002_ING\\CRUD_1002_ING.csproj|c:\\users\\liliana lopez dimas\\source\\repos\\crud_1002_ing\\crud_1002_ing\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{97B62A86-735C-407D-9344-228880EC32E4}|CRUD_1002_ING\\CRUD_1002_ING.csproj|solutionrelative:crud_1002_ing\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{97B62A86-735C-407D-9344-228880EC32E4}|CRUD_1002_ING\\CRUD_1002_ING.csproj|c:\\users\\liliana lopez dimas\\source\\repos\\crud_1002_ing\\crud_1002_ing\\src\\inventory.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{97B62A86-735C-407D-9344-228880EC32E4}|CRUD_1002_ING\\CRUD_1002_ING.csproj|solutionrelative:crud_1002_ing\\src\\inventory.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97B62A86-735C-407D-9344-228880EC32E4}|CRUD_1002_ING\\CRUD_1002_ING.csproj|C:\\Users\\Liliana Lopez Dimas\\source\\repos\\CRUD_1002_ING\\crud_1002_ing\\webform1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97B62A86-735C-407D-9344-228880EC32E4}|CRUD_1002_ING\\CRUD_1002_ING.csproj|solutionrelative:crud_1002_ing\\webform1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{97B62A86-735C-407D-9344-228880EC32E4}|CRUD_1002_ING\\CRUD_1002_ING.csproj|C:\\Users\\Liliana Lopez Dimas\\source\\repos\\CRUD_1002_ING\\crud_1002_ing\\webform1.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{97B62A86-735C-407D-9344-228880EC32E4}|CRUD_1002_ING\\CRUD_1002_ING.csproj|solutionrelative:crud_1002_ing\\webform1.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97B62A86-735C-407D-9344-228880EC32E4}|CRUD_1002_ING\\CRUD_1002_ING.csproj|C:\\Users\\Liliana Lopez Dimas\\source\\repos\\CRUD_1002_ING\\crud_1002_ing\\webform1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97B62A86-735C-407D-9344-228880EC32E4}|CRUD_1002_ING\\CRUD_1002_ING.csproj|solutionrelative:crud_1002_ing\\webform1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{97B62A86-735C-407D-9344-228880EC32E4}|CRUD_1002_ING\\CRUD_1002_ING.csproj|C:\\Users\\Liliana Lopez Dimas\\source\\repos\\CRUD_1002_ING\\crud_1002_ing\\webform1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
@@ -43,19 +39,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "packages.config",
-              "DocumentMoniker": "C:\\Users\\Liliana Lopez Dimas\\source\\repos\\CRUD_1002_ING\\CRUD_1002_ING\\packages.config",
-              "RelativeDocumentMoniker": "CRUD_1002_ING\\packages.config",
-              "ToolTip": "C:\\Users\\Liliana Lopez Dimas\\source\\repos\\CRUD_1002_ING\\CRUD_1002_ING\\packages.config",
-              "RelativeToolTip": "CRUD_1002_ING\\packages.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-10-30T04:56:50.406Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Inventory.js",
               "DocumentMoniker": "C:\\Users\\Liliana Lopez Dimas\\source\\repos\\CRUD_1002_ING\\CRUD_1002_ING\\src\\Inventory.js",
               "RelativeDocumentMoniker": "CRUD_1002_ING\\src\\Inventory.js",
@@ -68,7 +51,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "WebForm1.aspx.designer.cs",
               "DocumentMoniker": "C:\\Users\\Liliana Lopez Dimas\\source\\repos\\CRUD_1002_ING\\CRUD_1002_ING\\WebForm1.aspx.designer.cs",
               "RelativeDocumentMoniker": "CRUD_1002_ING\\WebForm1.aspx.designer.cs",
@@ -76,11 +59,12 @@
               "RelativeToolTip": "CRUD_1002_ING\\WebForm1.aspx.designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T02:27:15.087Z"
+              "WhenOpened": "2024-10-30T02:27:15.087Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "package.json",
               "DocumentMoniker": "C:\\Users\\Liliana Lopez Dimas\\source\\repos\\CRUD_1002_ING\\package.json",
               "RelativeDocumentMoniker": "package.json",
@@ -104,7 +88,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "WebForm1.aspx",
               "DocumentMoniker": "C:\\Users\\Liliana Lopez Dimas\\source\\repos\\CRUD_1002_ING\\CRUD_1002_ING\\WebForm1.aspx",
               "RelativeDocumentMoniker": "CRUD_1002_ING\\WebForm1.aspx",

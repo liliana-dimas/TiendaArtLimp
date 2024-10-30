@@ -1,13 +1,13 @@
-name: CI
+name: CI/CD Pipeline
 
 on:
   push:
-    branches: [ master ]
+    branches: [master]
   pull_request:
-    branches: [ master]
+    branches: [master]
 
 jobs:
-  build:
+  build-and-test:
     runs-on: ubuntu-latest
 
     steps:
@@ -17,12 +17,12 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '16'  # O '20' para evitar advertencias de versiones antiguas
+          node-version: '20'
 
       - name: Install dependencies
         run: npm install
-       
 
       - name: Run tests
         run: npm test
+
         
