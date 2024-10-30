@@ -4,7 +4,7 @@ on:
   push:
     branches: [ master ]
   pull_request:
-    branches: [ master ]
+    branches: [ master]
 
 jobs:
   build:
@@ -17,13 +17,12 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '16'  # Cambia a '16' o '20' para evitar la advertencia
+          node-version: '16'  # O '20' para evitar advertencias de versiones antiguas
 
       - name: Install dependencies
         run: npm install
-        working-directory: ./TiendaArtLimp  # Ajusta si es necesario
+       
 
       - name: Run tests
         run: npm test
-        working-directory: ./TiendaArtLimp  # Ajusta si es necesario
-
+        
