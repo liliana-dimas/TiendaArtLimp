@@ -1,0 +1,28 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - master # Cambia 'main' por el nombre de tu rama principal si es diferente
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest  # Usar la última versión de Ubuntu
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2  # Clona tu repositorio
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14'  # Cambia la versión de Node.js según tus necesidades
+
+    - name: Install dependencies
+      run: npm install  # Instala las dependencias del proyecto
+
+    - name: Run tests
+      run: npm test  # Ejecuta tus pruebas con Jest
